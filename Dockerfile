@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11-jre-hotspot
 
-ENV H2_ZIP http://www.h2database.com/h2-2019-03-13.zip
+ENV H2_ZIP https://github.com/h2database/h2database/releases/download/version-2.3.230/h2-2024-07-15.zip
 ENV H2_PORT 9092
 ENV H2_CONSOLE_PORT 8082
 ENV H2_DATA /var/lib/h2
